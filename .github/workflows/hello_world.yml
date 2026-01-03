@@ -1,3 +1,6 @@
+ name: Hello World
+on:
+  push:
     branches:
      - main
 jobs:
@@ -23,4 +26,3 @@ jobs:
           pip install pytest
       - name: Run testcases
         run: pytest
-
